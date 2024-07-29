@@ -95,31 +95,14 @@ AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RZADZTQA
 
 [Document4]
-DocumentPath=CHARGER.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VORCILZF
-
-[Document5]
-DocumentPath=BAT_PROTECTOR.SchDoc
+DocumentPath=BAT_&_PROTECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -135,6 +118,74 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWNFRBGB
 
+[Document5]
+DocumentPath=comutator.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EYOXKOOQ
+
+[Document6]
+DocumentPath=CHARGER_2A.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VORCILZF
+
+[Document7]
+DocumentPath=PD_TRIGGER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YOUDNRYB
+
+[Document8]
+DocumentPath=StepDown_LM2596.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XLCNCVTR
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for WiFi_UPS\Design Rule Check - pcb.html
 DItemRevisionGUID=
@@ -144,88 +195,88 @@ Name=__Project_Template_Version
 Value=1.0.3
 
 [Parameter2]
-Name=_Amount_Boards_Per_Stand
-Value=1
+Name=_PCB_Order_Thickness
+Value=1.6 mm
 
 [Parameter3]
-Name=_PCB_Order_Accuracy
-Value=0.2mm / 8mil
+Name=_PCB_Order_Size
+Value=0 x 0 mm
 
 [Parameter4]
-Name=_PCB_Order_BoardOutlineLayer
-Value=Mechanical1 (GM1)
+Name=_PCB_Order_SilkColor
+Value=No
 
 [Parameter5]
-Name=_PCB_Order_CastellatedHolesEdges
+Name=_PCB_Order_Silk
 Value=No
 
 [Parameter6]
-Name=_PCB_Order_Cooper
-Value=1oz / 35um
+Name=_PCB_Order_ProductionTime
+Value=2 weeks
 
 [Parameter7]
-Name=_PCB_Order_ElectricTest
-Value=Necessarily for 100% samples
+Name=_PCB_Order_MinHole
+Value=0.3 mm
 
 [Parameter8]
-Name=_PCB_Order_Finish
-Value=HASL
+Name=_PCB_Order_Material
+Value=FR-4
 
 [Parameter9]
-Name=_PCB_Order_LayersCnt
-Value=2
+Name=_PCB_Order_MaskColor
+Value=Green / Yellow
 
 [Parameter10]
 Name=_PCB_Order_Mask
 Value=on both sides
 
 [Parameter11]
-Name=_PCB_Order_MaskColor
-Value=Green / Yellow
+Name=_PCB_Order_LayersCnt
+Value=2
 
 [Parameter12]
-Name=_PCB_Order_Material
-Value=FR-4
+Name=_PCB_Order_Finish
+Value=HASL
 
 [Parameter13]
-Name=_PCB_Order_MinHole
-Value=0.3 mm
+Name=_PCB_Order_ElectricTest
+Value=Necessarily for 100% samples
 
 [Parameter14]
-Name=_PCB_Order_ProductionTime
-Value=2 weeks
+Name=_PCB_Order_Cooper
+Value=1oz / 35um
 
 [Parameter15]
-Name=_PCB_Order_Silk
+Name=_PCB_Order_CastellatedHolesEdges
 Value=No
 
 [Parameter16]
-Name=_PCB_Order_SilkColor
-Value=No
+Name=_PCB_Order_BoardOutlineLayer
+Value=Mechanical1 (GM1)
 
 [Parameter17]
-Name=_PCB_Order_Size
-Value=0 x 0 mm
+Name=_PCB_Order_Accuracy
+Value=0.2mm / 8mil
 
 [Parameter18]
-Name=_PCB_Order_Thickness
-Value=1.6 mm
+Name=_Amount_Boards_Per_Stand
+Value=1
 
 [Parameter19]
-Name=Authors
-Value=Starovit
+Name=Project_Version
+Value=2
 
 [Parameter20]
-Name=Product_Name
-Value=WiFi_UPS
-
-[Parameter21]
 Name=Project_ID
 Value=001
 
+[Parameter21]
+Name=Product_Name
+Value=WiFi_UPS
+
 [Parameter22]
-Name=Project_Version
-Value=2
+Name=Authors
+Value=Starovit
 
 [Configuration1]
 Name=Sources
@@ -1253,9 +1304,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=BK-18650-PC4.SchLib
-ComponentDesignItemID0=BK-18650-PC4
-ComponentSymbolReference0=BK-18650-PC4
+ComponentLibraryIdentifier0=vitech_lib.IntLib
+ComponentDesignItemID0=18650 Holder 2pcs
+ComponentSymbolReference0=18650 Holder 2pcs
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
