@@ -186,6 +186,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XLCNCVTR
 
+[Document9]
+DocumentPath=..\..\..\Altium_lib\auto_templates\Default_AD_project\Ajax_Auto_OutJob_template.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for WiFi_UPS\Design Rule Check - pcb.html
 DItemRevisionGUID=
