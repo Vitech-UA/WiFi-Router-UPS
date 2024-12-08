@@ -23,7 +23,7 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=1
+AutoSheetNumbering=0
 AutoCrossReferences=0
 NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
@@ -51,7 +51,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=main.SchDoc
+DocumentPath=MAIN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -85,7 +85,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TMLRXHRO
 
 [Document3]
-DocumentPath=StepUp_MT3608.SchDoc
+DocumentPath=STEP-UP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
