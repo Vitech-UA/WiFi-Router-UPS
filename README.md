@@ -1,7 +1,9 @@
 # WiFi-Router-UPS
 Версія 2. На основі недоліків виявлених в першій версії.  
 <div align="center">
-##Фото зібраної плати  
+  
+# Фото зібраної плати  
+
 </div>
 
 ![IMG_4475](https://github.com/user-attachments/assets/4dbca624-5034-4a92-94e7-8e686c5315fe)  
