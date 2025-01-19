@@ -203,23 +203,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
-DocumentPath=C:\Users\Vitech-UA\Desktop\WiFi_UPS.BomDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for WiFi_UPS\Design Rule Check - pcb.html
 DItemRevisionGUID=
@@ -229,88 +212,88 @@ Name=__Project_Template_Version
 Value=1.0.3
 
 [Parameter2]
-Name=_Amount_Boards_Per_Stand
-Value=1
+Name=_PCB_Order_Thickness
+Value=1.6 mm
 
 [Parameter3]
-Name=_PCB_Order_Accuracy
-Value=0.2mm / 8mil
+Name=_PCB_Order_Size
+Value=0 x 0 mm
 
 [Parameter4]
-Name=_PCB_Order_BoardOutlineLayer
-Value=Mechanical1 (GM1)
+Name=_PCB_Order_SilkColor
+Value=No
 
 [Parameter5]
-Name=_PCB_Order_CastellatedHolesEdges
+Name=_PCB_Order_Silk
 Value=No
 
 [Parameter6]
-Name=_PCB_Order_Cooper
-Value=1oz / 35um
+Name=_PCB_Order_ProductionTime
+Value=2 weeks
 
 [Parameter7]
-Name=_PCB_Order_ElectricTest
-Value=Necessarily for 100% samples
+Name=_PCB_Order_MinHole
+Value=0.3 mm
 
 [Parameter8]
-Name=_PCB_Order_Finish
-Value=HASL
+Name=_PCB_Order_Material
+Value=FR-4
 
 [Parameter9]
-Name=_PCB_Order_LayersCnt
-Value=2
+Name=_PCB_Order_MaskColor
+Value=Green / Yellow
 
 [Parameter10]
 Name=_PCB_Order_Mask
 Value=on both sides
 
 [Parameter11]
-Name=_PCB_Order_MaskColor
-Value=Green / Yellow
+Name=_PCB_Order_LayersCnt
+Value=2
 
 [Parameter12]
-Name=_PCB_Order_Material
-Value=FR-4
+Name=_PCB_Order_Finish
+Value=HASL
 
 [Parameter13]
-Name=_PCB_Order_MinHole
-Value=0.3 mm
+Name=_PCB_Order_ElectricTest
+Value=Necessarily for 100% samples
 
 [Parameter14]
-Name=_PCB_Order_ProductionTime
-Value=2 weeks
+Name=_PCB_Order_Cooper
+Value=1oz / 35um
 
 [Parameter15]
-Name=_PCB_Order_Silk
+Name=_PCB_Order_CastellatedHolesEdges
 Value=No
 
 [Parameter16]
-Name=_PCB_Order_SilkColor
-Value=No
+Name=_PCB_Order_BoardOutlineLayer
+Value=Mechanical1 (GM1)
 
 [Parameter17]
-Name=_PCB_Order_Size
-Value=0 x 0 mm
+Name=_PCB_Order_Accuracy
+Value=0.2mm / 8mil
 
 [Parameter18]
-Name=_PCB_Order_Thickness
-Value=1.6 mm
+Name=_Amount_Boards_Per_Stand
+Value=1
 
 [Parameter19]
-Name=Authors
-Value=Starovit
+Name=Project_Version
+Value=2
 
 [Parameter20]
-Name=Product_Name
-Value=WiFi_UPS
-
-[Parameter21]
 Name=Project_ID
 Value=001
 
+[Parameter21]
+Name=Product_Name
+Value=WiFi_UPS
+
 [Parameter22]
-Name=Project_Version
-Value=2
+Name=Authors
+Value=Starovit
 
 [Configuration1]
 Name=Sources
@@ -1256,8 +1239,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=vitech_lib.IntLib
-ComponentDesignItemID0=18650 Holder 2pcs
-ComponentSymbolReference0=18650 Holder 2pcs
+ComponentDesignItemID0=IRF7907TRPBF
+ComponentSymbolReference0=IRF7907TRPBF
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1273,30 +1256,68 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Availability
+ParameterName0=Case/Package
 ParameterUpdate0=1
 ParameterName1=Comment
 ParameterUpdate1=1
 ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=ComponentLink1Description
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=ComponentLink1URL
 ParameterUpdate4=1
-ParameterName5=MF
+ParameterName5=ComponentLink2Description
 ParameterUpdate5=1
-ParameterName6=MP
+ParameterName6=ComponentLink2URL
 ParameterUpdate6=1
-ParameterName7=Package
+ParameterName7=Continuous Drain Current (ID)
 ParameterUpdate7=1
-ParameterName8=Price
+ParameterName8=Description
 ParameterUpdate8=1
-ParameterName9=Value
+ParameterName9=Drain to Source Voltage (Vdss)
 ParameterUpdate9=1
+ParameterName10=FET Type
+ParameterUpdate10=1
+ParameterName11=Gate to Source Voltage (Vgs)
+ParameterUpdate11=1
+ParameterName12=Halogen Free
+ParameterUpdate12=1
+ParameterName13=Height
+ParameterUpdate13=1
+ParameterName14=Input Capacitance
+ParameterUpdate14=1
+ParameterName15=Lead Free
+ParameterUpdate15=1
+ParameterName16=Length
+ParameterUpdate16=1
+ParameterName17=Library Reference
+ParameterUpdate17=1
+ParameterName18=Max Dual Supply Voltage
+ParameterUpdate18=1
+ParameterName19=Max Operating Temperature
+ParameterUpdate19=1
+ParameterName20=Max Power Dissipation
+ParameterUpdate20=1
+ParameterName21=Min Operating Temperature
+ParameterUpdate21=1
+ParameterName22=Mount
+ParameterUpdate22=1
+ParameterName23=Number of Pins
+ParameterUpdate23=1
+ParameterName24=Packaging
+ParameterUpdate24=1
+ParameterName25=Partnumber
+ParameterUpdate25=1
+ParameterName26=Rds On Max
+ParameterUpdate26=1
+ParameterName27=RoHS Compliant
+ParameterUpdate27=1
+ParameterName28=Width
+ParameterUpdate28=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=BAT_BK-18650-PC4
+ModelName0=FP-PG-DSO-8-IPC_B
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
