@@ -4,4 +4,4 @@
 
 | ТОР | BOT |
 |------------|-----------|
-| ![V1 Front](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/20250918_193655.jpg) | ![V1 Rear](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/20250918_193655.jpg) |
+| ![V1 Front](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/20250918_193655.jpg) | ![V1 Rear](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/20250918_193750.jpg) |
