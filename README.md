@@ -1,7 +1,44 @@
 # WiFi-Router-UPS
-Версія 3. На основі недоліків виявлених в другій версії.  
-**Фото плати v3:**
 
-| ТОР | BOT |
-|------------|-----------|
-| ![V1 Front](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/20250918_193655.jpg) | ![V1 Rear](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/20250918_193750.jpg) |
+**Версія:** 3  
+**Призначення:** Резервне живлення для WiFi-роутера та оптоволоконного терміналу  
+**Оновлення:** Версія 3 розроблена з урахуванням недоліків, виявлених у версії 2
+
+---
+
+## Технічні характеристики
+
+- **Вхідна напруга:** 8–12 В DC  
+- **Максимальний вхідний струм:** 2 А  
+- **Тип акумуляторів:** Li-Ion 18650 — 4 шт.  
+- **Струм заряджання акумуляторів:** до 2.1 А  
+
+### Вихідні канали
+
+| Канал | Напруга     | Струм  | Призначення                        |
+|-------|-------------|--------|------------------------------------|
+| 1     | 9 В / 12 В  | до 1 А | Живлення WiFi-роутера              |
+| 2     | 9 В / 12 В  | до 1 А | Живлення оптоволоконного терміналу |
+
+---
+
+## Зображення плати (v3)
+
+| Верхня сторона | Нижня сторона |
+|----------------|----------------|
+| ![Top View](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/20250918_193655.jpg) | ![Bottom View](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/20250918_193750.jpg) |
+
+---
+
+## Тестування системи
+
+1. **Живлення зарядного пристрою (DC-DC 5V):**  
+   ![DC-DC 5V CHARGER](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5VOUT_CHARGER.jpg)
+
+2. **Живлення каналів через DC-DC перетворювач (5V):**  
+   ![DC-DC 5V ROUTER](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5VOUT_ROUTER.jpg)
+
+3. **Підвищуючий перетворювач (5V → 12V) для каналів живлення:**  
+   ![DC-DC 5V-12V](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5V-12V.jpg)
+
+---
