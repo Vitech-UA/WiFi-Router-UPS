@@ -33,12 +33,13 @@
 ## Тестування системи
 
 1. **Живлення зарядного пристрою (DC-DC 5V):**  
-   ![DC-DC 5V CHARGER](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5VOUT_CHARGER.jpg)
+   <img src="https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5VOUT_CHARGER.jpg" width="400"/>
 
 2. **Живлення каналів через DC-DC перетворювач (5V):**  
-   ![DC-DC 5V ROUTER](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5VOUT_ROUTER.jpg)
+   <img src="https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5VOUT_ROUTER.jpg" width="400"/>
 
 3. **Підвищуючий перетворювач (5V → 12V) для каналів живлення:**  
-   ![DC-DC 5V-12V](https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5V-12V.jpg)
+   <img src="https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5V-12V.jpg" width="400"/>
+
 
 ---
