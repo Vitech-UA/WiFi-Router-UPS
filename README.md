@@ -32,13 +32,13 @@
 
 ## Тестування системи
 
-1. **Живлення зарядного пристрою (DC-DC 5V):**  
+1. **Живлення зарядного пристрою (DC-DC 5V) під навантаженням:**  
    <img src="https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5VOUT_CHARGER.jpg" width="400"/>
 
-2. **Живлення каналів через DC-DC перетворювач (5V):**  
+2. **Живлення каналів через DC-DC перетворювач (5V) під навантаженням:**  
    <img src="https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5VOUT_ROUTER.jpg" width="400"/>
 
-3. **Підвищуючий перетворювач (5V → 12V) для каналів живлення:**  
+3. **Підвищуючий перетворювач (5V → 12V) для каналів живлення під навантаженням:**  
    <img src="https://github.com/Vitech-UA/WiFi-Router-UPS/blob/main/MEDIA/DC-DC_5V-12V.jpg" width="400"/>
 
 ---
