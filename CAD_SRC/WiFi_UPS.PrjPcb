@@ -68,23 +68,6 @@ GenerateClassCluster=0
 DocumentUniqueId=NDWBJVKU
 
 [Document2]
-DocumentPath=pcb.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TMLRXHRO
-
-[Document3]
 DocumentPath=STEP-UP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -101,7 +84,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RZADZTQA
 
-[Document4]
+[Document3]
 DocumentPath=BAT_&_PROTECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWNFRBGB
 
-[Document5]
+[Document4]
 DocumentPath=comutator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EYOXKOOQ
 
-[Document6]
+[Document5]
 DocumentPath=CHARGER_2A.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VORCILZF
 
-[Document7]
+[Document6]
 DocumentPath=PD_TRIGGER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,6 +151,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YOUDNRYB
+
+[Document7]
+DocumentPath=pcb.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TMLRXHRO
 
 [Document8]
 DocumentPath=StepDown_LM2596.SchDoc
