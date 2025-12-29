@@ -63,7 +63,8 @@
 
 ---
 ## Плата v4
-
+На основі вказаних вище рекомендації було оновлено пристрій до v4
++ Додано тестові пади -> v4.1
 **3D-візуалізація плати (TOP):**  
 <img src="https://github.com/Vitech-UA/WiFi-Router-UPS/raw/main/MEDIA/TOP.jpg" width="600"/>
 
@@ -71,4 +72,6 @@
 <img src="https://github.com/Vitech-UA/WiFi-Router-UPS/raw/main/MEDIA/20251227_113409.jpg" width="600"/>
 
 **Тестування плати v4:**  
-<img src="https://github.com/Vitech-UA/WiFi-Router-UPS/raw/main/MEDIA/20251227_113409.jpg" width="600"/>
+<img src="https://github.com/Vitech-UA/WiFi-Router-UPS/raw/main/MEDIA/TEST_1.jpg" width="600"/>
+
+<img src="https://github.com/Vitech-UA/WiFi-Router-UPS/raw/main/MEDIA/TEST_2.jpg" width="600"/>
