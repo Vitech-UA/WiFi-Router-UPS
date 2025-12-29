@@ -60,3 +60,15 @@
 5. Встановити SMD-запобіжник у лінії живлення **4,2 В** від акумуляторів.  
 6. Оновити шовкографію: додати позначення (десигнатори) компонентів та маркування полярності/призначення.  
 7. Закласти посадочні місця для діодів SK56 у корпусі **SMC**.
+
+---
+## Плата v4
+
+**3D-візуалізація плати (TOP):**  
+<img src="https://github.com/Vitech-UA/WiFi-Router-UPS/raw/main/MEDIA/TOP.jpg" width="600"/>
+
+**Зібрана плата v4:**  
+<img src="https://github.com/Vitech-UA/WiFi-Router-UPS/raw/main/MEDIA/20251227_113409.jpg" width="600"/>
+
+**Тестування плати v4:**  
+<img src="https://github.com/Vitech-UA/WiFi-Router-UPS/raw/main/MEDIA/20251227_113409.jpg" width="600"/>
